@@ -1,0 +1,17 @@
+﻿@import 'base/normalize';
+@import 'base/base';
+@import 'vendors/foundation';
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+// Colors
+$dark-background: #272822;
+$white-foreground: #fff;
+
+// Fonts
+$font-stack-body: 'Droid Sans Mono', Tahoma, Geneva, Verdana, sans-serif; 
+
+body {
+    background-color: $dark-background;
+    color: $white-foreground;
+    font-family: $font-stack-body,;
+}
